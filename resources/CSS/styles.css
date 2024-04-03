@@ -172,14 +172,21 @@ ul {
     display: flex;
     align-items: center;
     justify-content: center;
-    gap: 100px;
     
 }
 
+.content-container {
+    display: flex;
+    justify-content: space-evenly;
+    flex: 1;
+    align-items: center;
+    
+
+}
+
 .text {
-
-    width: 30%;
-
+    width: 70%;
+    text-align: justify;
     font-family: 'Nothing You Could Do';
     font-size: 2rem;
     color: #EEEEEE;
@@ -191,17 +198,18 @@ ul {
 
 
 .photo {
-    width: 600px;
-    height: 500px;
-    border: 1px solid #EEEEEE;
-    border-radius: 10px;
+    
+    width: 80%;
+    height: 80%;
     
 }
 
-.photo img{
-border-radius: 10px;
-width: 100%;
-height: 100%;
+.photo img {
+
+    border: 1px solid #EEEEEE;
+    border-radius: 10px;
+    width: 80%;
+    height: 80%;
 
 }
 
