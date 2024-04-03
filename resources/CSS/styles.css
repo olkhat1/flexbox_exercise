@@ -38,6 +38,17 @@ ul {
     gap: 2em;
 }
 
+.icons {
+    display: flex;
+
+    gap: 10px;
+}
+
+.icon-container img {
+    height: 20px;
+    width: 20px;
+}
+
 
 
 
@@ -151,7 +162,7 @@ ul {
     justify-content: center;
     align-items: center;
     min-height: 800px;
-    background-color: #222831;
+    background-color: #31363F;
     border-top: 1px solid #EEEEEE;
 
 
@@ -193,3 +204,37 @@ width: 100%;
 height: 100%;
 
 }
+
+
+/* Footer */
+
+footer {
+    height: 100px;
+    
+}
+
+.contact-information h3 {
+    font-family: 'Nothing You Could Do';
+}
+
+
+
+.contact-information {
+    display: flex;
+    background-color: #222831;
+    height: 100%;
+    color: #EEEEEE;
+    font-size: 1.5rem;
+    justify-content: space-around;
+    align-items: center;
+    border-top:1px solid #EEEEEE;
+}
+
+.text-footer {
+    display: flex;
+    justify-content: space-evenly;
+}
+
+
+
+
