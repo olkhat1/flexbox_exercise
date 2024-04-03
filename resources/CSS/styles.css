@@ -6,9 +6,34 @@
     box-sizing: border-box;
 }
 
+html {
+
+    font-size: 16px;
+}
+
+
 /* Navigation */
 
+.navbar {
+    display: flex;
+    font-family: 'Nothing You Could Do';
+    font-size: 1.5rem;
+    padding: 15px 15px;
+    background-color: #222831;
+    color: #EEEEEE;
 
+
+
+}
+
+ul {
+    display: flex;
+    align-items: center;
+    margin-left: auto;
+    list-style-type: none;
+    text-decoration: 1px underline;
+    gap: 2em;
+}
 
 
 
@@ -29,6 +54,11 @@
 
 }
 
+.img-container {
+
+
+}
+
 
 
 /* Team Section */
@@ -36,5 +66,5 @@
 #team {
 
 
-    
+
 }
