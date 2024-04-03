@@ -12,6 +12,7 @@ html {
 }
 
 
+
 /* Navigation */
 
 .navbar {
@@ -47,7 +48,7 @@ ul {
     justify-content: center;
     align-items: center;
     background-image: url(/resources/IMG/conor-luddy-IVaKksEZmZA-unsplash.jpg);
-    height: 500px;
+    min-height: 600px;
     width: 100%;
     background-size: cover;
     background-position: center;
@@ -69,23 +70,61 @@ ul {
 
 #product {
     display: flex;
+    flex-direction: column;
     justify-content: center;
     align-items: center;
     flex-wrap: wrap;
-    gap: 3rem;
-    height: 400px;
+    min-height: 600px;
+    width: 100%;
     background: rgb(2,0,36);
     background: linear-gradient(90deg, rgba(2,0,36,1) 0%, rgba(23,88,92,1) 54%, rgba(37,143,164,1) 82%);
+    border-top: 1px solid #EEEEEE;
 
 }
 
-.img-container img {
+#product h2 {
+
+    font-family: 'Nothing You Could Do';
+    font-size: 3rem;
+    color: #EEEEEE;
+    margin-top: 50px;
+}
+
+.main-container {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    flex: 1;
+    gap: 70px;
+    flex-wrap: wrap;
+    
+    
+}
+
+.picture-text {
+    text-align: center;
+    font-family: 'Nothing You Could Do';
+    font-size: 1.5rem;
+    color: #EEEEEE;
+}
+
+
+
+.img-container {
 
     width: 300px;
     height: 300px;
     background-color: #EEEEEE;
+    border: 1px solid #EEEEEE;
+    border-radius: 10px;
 
 
+}
+
+.img-container img{
+    border-radius: 10px;
+    width: 100%;
+    height: 100%;
 }
 
 
