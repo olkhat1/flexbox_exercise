@@ -91,6 +91,13 @@ ul {
     color: #EEEEEE;
 }
 
+#product p {
+    text-align: center;
+    color: #EEEEEE;
+    font-family: 'Nothing You Could Do';
+
+}
+
 .main-container {
     display: flex;
     justify-content: center;
@@ -120,6 +127,7 @@ ul {
     background-color: #EEEEEE;
     border: 1px solid #EEEEEE;
     border-radius: 10px;
+    transition: transform 2s;
 
 
 }
@@ -128,6 +136,11 @@ ul {
     border-radius: 10px;
     width: 100%;
     height: 100%;
+}
+
+.img-container img:hover {
+    transform: scale(1.5);
+    border: 1px solid #EEEEEE
 }
 
 
@@ -148,7 +161,7 @@ ul {
     display: flex;
     align-items: center;
     justify-content: center;
-    gap: 15rem;
+    gap: 100px;
     
 }
 
@@ -161,10 +174,14 @@ ul {
     color: #EEEEEE;
 }
 
+.text strong {
+    text-decoration: underline;
+}
+
 
 .photo {
-    width: 500px;
-    height: 400px;
+    width: 600px;
+    height: 500px;
     border: 1px solid #EEEEEE;
     border-radius: 10px;
     
