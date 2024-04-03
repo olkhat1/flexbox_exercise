@@ -21,6 +21,8 @@ html {
     padding: 15px 15px;
     background-color: #222831;
     color: #EEEEEE;
+    border-bottom: 1px solid #EEEEEE;
+    
 
 
 
@@ -40,8 +42,23 @@ ul {
 
 /* Company Section */
 
-#company {
+  #company {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    background-image: url(/resources/IMG/conor-luddy-IVaKksEZmZA-unsplash.jpg);
+    height: 500px;
+    width: 100%;
+    background-size: cover;
+    background-position: center;
+    background-repeat: no-repeat;
 
+}
+
+.mission-statement {
+    font-family: 'Nothing You Could Do';
+    font-size: 2rem;
+    color: #EEEEEE;
 }
 
 
@@ -51,10 +68,22 @@ ul {
 /* Product Section */
 
 #product {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    flex-wrap: wrap;
+    gap: 3rem;
+    height: 400px;
+    background: rgb(2,0,36);
+    background: linear-gradient(90deg, rgba(2,0,36,1) 0%, rgba(23,88,92,1) 54%, rgba(37,143,164,1) 82%);
 
 }
 
-.img-container {
+.img-container img {
+
+    width: 300px;
+    height: 300px;
+    background-color: #EEEEEE;
 
 
 }
